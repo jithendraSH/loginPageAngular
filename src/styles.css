@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+body{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+    background: linear-gradient(90deg, #776BCC , #C7C5F4)
+}
+.displayTable {
+    width: 500px;
+    height: 600px;
+    margin: 7em auto;
+    border-radius: 1.9em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    text-align: center;
+    padding: 70px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    background: linear-gradient(90deg, #c7c5f45b 30%, #766bcc);	
+    backdrop-filter: blur(10px)
+}
+.formControl {
+    margin-top: 10px;
+    padding: 8px;
+}
+.btnPrimary {
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+.btnPrimary:active,
+.btnPrimary:focus,
+.btnPrimary:hover {
+	outline: none;
+	border-bottom-color: #6a679e4a;
+}
+.btnPrimary {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+}
+.btnPrimary:active,
+.btnPrimary:focus,
+.btnPrimary:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+.googleBtn {
+    background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 15px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #705696;
+	cursor: pointer;
+	transition: .2s;
+}
+.redirect {
+    color: #114D99;
+}
+.formGroup input{
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 100%;
+	transition: .2s;
+}
+span{
+	font-size: 500;
+}
