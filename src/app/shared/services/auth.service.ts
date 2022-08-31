@@ -91,6 +91,11 @@ export class AuthService {
       this.router.navigate(['dashboard']);
     });
   }
+  FacebookAuth() {
+    return this.AuthLogin(new auth.FacebookAuthProvider()).then((res: any) => {
+      this.router.navigate(['dashboard']);
+    });
+  }
   // Auth logic to run auth providers
   AuthLogin(provider: any) {
     return this.afAuth
