@@ -23,8 +23,7 @@ body{
     display: flex;
 	align-items: center;
 	justify-content: center;
-    background: linear-gradient(90deg, #c7c5f45b 30%, #766bcc);	
-    backdrop-filter: blur(10px)
+    background: linear-gradient(90deg, #c7c5f45b 30%, #766bcc);
 }
 .formControl {
     margin-top: 10px;
@@ -36,7 +35,7 @@ body{
 	background: none;
 	padding: 10px;
 	padding-left: 24px;
-	font-weight: 700;
+	font-weight: 500;
 	width: 75%;
 	transition: .2s;
 }
@@ -95,7 +94,7 @@ body{
 	background: none;
 	padding: 10px;
 	padding-left: 24px;
-	font-weight: 700;
+	font-weight: 500;
 	width: 100%;
 	transition: .2s;
 }
