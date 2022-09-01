@@ -6,7 +6,11 @@ import {
   AngularFirestore,
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { BehaviorSubject, Observable, from, of, EMPTY } from 'rxjs';
+import { map, concatMap, finalize } from 'rxjs/operators';
+
 @Injectable({
   providedIn: 'root',
 })
@@ -96,6 +100,7 @@ export class AuthService {
       this.router.navigate(['dashboard']);
     });
   }
+  
   // Auth logic to run auth providers
   AuthLogin(provider: any) {
     return this.afAuth

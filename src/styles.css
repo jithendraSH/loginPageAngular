@@ -4,17 +4,20 @@
 	margin: 0;
 	padding: 0;	
 	font-family: Raleway, sans-serif;
+	color: #C7C5F4;
+	font-size: 18px;
+	
 }
 body{
     box-sizing: border-box;
 	margin: 0;
 	padding: 0;	
 	font-family: Raleway, sans-serif;
-    background: linear-gradient(90deg, #776BCC , #C7C5F4)
+    background: linear-gradient(90deg, #776BCC 50%, #C7C5F4 75%)
 }
 .displayTable {
-    width: 500px;
-    height: 600px;
+    width: 550px;
+    height: 700px;
     margin: 7em auto;
     border-radius: 1.9em;
     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
@@ -23,11 +26,14 @@ body{
     display: flex;
 	align-items: center;
 	justify-content: center;
-    background: linear-gradient(90deg, #c7c5f45b 30%, #766bcc);
+    background-image: url(459724.png);
+	background-position: 20% 20%
+	
 }
 .formControl {
     margin-top: 10px;
     padding: 8px;
+	
 }
 .btnPrimary {
     border: none;
@@ -43,7 +49,7 @@ body{
 .btnPrimary:focus,
 .btnPrimary:hover {
 	outline: none;
-	border-bottom-color: #6a679e4a;
+	border-bottom-color: #6c69a34a;
 }
 .btnPrimary {
 	background: #fff;
