@@ -5,8 +5,6 @@
 	padding: 0;	
 	font-family: Raleway, sans-serif;
 	color: #C7C5F4;
-	font-size: 18px;
-	
 }
 body{
     box-sizing: border-box;
@@ -16,7 +14,7 @@ body{
     background: linear-gradient(90deg, #776BCC 50%, #C7C5F4 75%)
 }
 .displayTable {
-    width: 550px;
+    width: 500px;
     height: 700px;
     margin: 7em auto;
     border-radius: 1.9em;
@@ -26,8 +24,8 @@ body{
     display: flex;
 	align-items: center;
 	justify-content: center;
-    background-image: url(459724.png);
-	background-position: 20% 20%
+     background-image: url(459724.png);
+	 background-position: 20% 30%
 	
 }
 .formControl {
@@ -49,7 +47,7 @@ body{
 .btnPrimary:focus,
 .btnPrimary:hover {
 	outline: none;
-	border-bottom-color: #6c69a34a;
+	border-bottom-color: #6a679e4a;
 }
 .btnPrimary {
 	background: #fff;
