@@ -1,24 +1,3 @@
-<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-  </nav>
-  <!-- Sidebar navigation -->
-  <div class="container-fluid">
-    <div class="row">
-      <nav class="col-md-2 d-md-block bg-light sidebar">
-        <div class="sidebar-sticky">
-          <ul class="nav flex-column">
-            <li class="nav-item"><br>
-              <a class="sign">
-                <i></i>User Profile
-              </a>
-            </li><br>
-            <li class="nav-item">
-              <a class="sign" (click)="authService.SignOut()">
-                <i class="fas fa-sign-out-alt"></i>Log out
-              </a>
-            </li><br>
-          </ul>
-        </div>
-      </nav><br>
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
         <div class="inner-adjust">
           <div class="pt-3 pb-2 mb-3 border-bottom">
@@ -31,11 +10,14 @@
                   <h1>Hello: <strong>{{(user.displayName) ? user.displayName : 'User'}}</strong></h1>
                   <p>Email: <strong>{{user.email}}</strong></p>
                   <p>Email Verified: <strong>{{user.emailVerified}}</strong></p>
-                </div>
+                </div><br><br>
+                <li class="nav-item">
+                  <a class="sign" (click)="authService.SignOut()">
+                    <i class="fas fa-sign-out-alt"></i>Log out
+                  </a>
+                </li><br>
               </div>
             </div>
           </div>
         </div>
       </main>
-    </div>
-  </div>

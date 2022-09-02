@@ -6,7 +6,7 @@
 	font-family: Raleway, sans-serif;
 }
 .sign{
-    align-items: center;
+  align-items: center;
   appearance: none;
   background-color: #FCFCFD;
   border-radius: 4px;
@@ -25,7 +25,7 @@
   padding-left: 16px;
   padding-right: 16px;
   position: relative;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   transition: box-shadow .15s,transform .15s;
   user-select: none;
