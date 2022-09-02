@@ -11,7 +11,8 @@ body{
 	margin: 0;
 	padding: 0;	
 	font-family: Raleway, sans-serif;
-    background: linear-gradient(90deg, #776BCC 50%, #C7C5F4 75%)
+	background-image: url(459724.png);
+	background-position: 50% 50%
 }
 .displayTable {
     width: 500px;
@@ -24,8 +25,7 @@ body{
     display: flex;
 	align-items: center;
 	justify-content: center;
-     background-image: url(459724.png);
-	 background-position: 20% 30%
+
 	
 }
 .formControl {
